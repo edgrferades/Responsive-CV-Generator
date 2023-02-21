@@ -77,8 +77,8 @@
             <input type="text" class="form-control experience" id="experience" placeholder="Begain with your most recent experience. It's okay to show off your achivements" required>
         </div>
 
-        <div class="button">
-            <button type="button" class="btn btn-primary">Add Experience</button>
+        <div id="experienceButton">
+            <button onclick="addExperience()" type="experienceButton" class="btn btn-primary">Add Experience</button>
         </div>
 
         <div class="form-group">
@@ -86,8 +86,8 @@
             <input type="text" class="form-control education" id="education" placeholder="Begain with your most recent education. It's okay to brag about your scoors" required>
         </div>
 
-        <div class="button">
-            <button type="button" class="btn btn-primary">Add Education</button>
+        <div id="educationButton">
+            <button onclick="addEducation()" type="educationButton" class="btn btn-primary">Add Education</button>
         </div>
 
         <div class="button text-center" style="margin: 12px;">
@@ -95,6 +95,29 @@
         </div>
 
     </div>
+
+    <footer>
+
+        <div class="container">
+
+            <div class="container">
+                <div class="wrapper">
+                    <p>Copyrigth &copy; 2022 Edgar. All rights reserved</p>
+                
+                    <div class="icons">
+                    <div class="socialIcon">
+                        <a href="https://www.instagram.com/edgr48/" target="_blank"><img src="instaIcon.png" alt="instaIcon"></a>
+                    </div>
+                
+                    <div class="socialIcon">
+                        <a href="http://" target="_blank"><img src="linkedinIcon.png" alt="instaIcon"></a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                  
+
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-dSX1jKvDW6g/rU6yrOy6wKj8pzXXrNXik9Z/WNhUV1Ooy/K/bhNvB4PKjK4JyyNw" crossorigin="anonymous"></script>
     <script src="script.js"></script>

@@ -26,7 +26,36 @@ header{
     flex-direction: column;
 }
 
-.button{
+#experienceButton, #educationButton{
     text-align: left;
     margin: 0 12px;
 }
+
+footer{
+    background-color: antiquewhite;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Set to center horizontally */
+    align-items: center; /* Set to center vertically */
+    height: vh; /* Set height to full viewport height */
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .socialIcon {
+    margin: 0 10px; /* Add margin to space out icons */
+  }
+  
